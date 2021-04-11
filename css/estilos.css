@@ -70,7 +70,13 @@ header .menu .c-3:hover { background: #002d44; }
 	border-top: 5px solid #3da5e2;
 	padding: 0 20px;
 }
-
+.promo3d {
+	padding: 40px 0;
+	text-align: center;
+	color: #3da5e2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
 .portafolio .titulo {
 	padding: 40px 0;
 	text-align: center;
@@ -289,4 +295,32 @@ header .menu .c-3:hover { background: #002d44; }
 	header .logo p {
 		font-size: 12px;
 	}
+}
+.cyber{
+
+	align-content: center;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
 }
